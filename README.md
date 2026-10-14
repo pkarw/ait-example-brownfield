@@ -55,7 +55,7 @@ Skrypty są przygotowane dla Linuxa (Debian/Ubuntu) i ścieżki `/workspace`. Po
 sudo mkdir -p /workspace
 sudo chown "$(id -un):$(id -gn)" /workspace
 # Klonuj do pustego /workspace.
-git clone https://github.com/pkrw/ait-example-brownfield.git /workspace
+git clone https://github.com/pkarw/ait-example-brownfield.git /workspace
 cd /workspace
 bash scripts/prepare.sh
 ```
