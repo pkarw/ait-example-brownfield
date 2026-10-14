@@ -1,0 +1,10 @@
+.runtime/
+.npm/
+.ai/
+node_modules/
+scripts/wp-cli.phar
+wordpress/*
+!wordpress/wp-config.php
+!wordpress/wp-content/
+wordpress/wp-content/*
+!wordpress/wp-content/mu-plugins/

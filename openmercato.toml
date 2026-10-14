@@ -1,5 +1,10 @@
 version = 2
 
-# Custom / Bring Your Own Project
+prepare = [["bash", "/workspace/scripts/prepare.sh"]]
+
+[[processes]]
+name = "mariadb"
+command = ["/usr/sbin/mariadbd", "--datadir=/workspace/.runtime/mysql", "--socket=/workspace/.runtime/mysql.sock", "--pid-file=/workspace/.runtime/mysql.pid", "--skip-networking", "--log-error=/workspace/.runtime/mysql.log"]
+
 [preview]
-command = ["python3", "-m", "http.server", "3000", "--bind", "0.0.0.0"]
+command = ["php", "-S", "0.0.0.0:3000", "-t", "/workspace/wordpress", "/workspace/scripts/router.php"]

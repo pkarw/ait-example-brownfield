@@ -1,0 +1,33 @@
+#taskflow-module{border:1px solid #dcdcde;border-radius:8px;overflow:hidden;margin-top:18px;background:#f8f9f6;position:relative;font-family:'DM Sans',sans-serif;color:#293c34;font-size:13px}
+#taskflow-module .shell{display:block;min-height:0}
+#taskflow-module .sidebar{position:static;inset:auto;transform:none;width:100%;padding:17px 22px;display:flex;flex-direction:row;flex-wrap:wrap;gap:12px 20px;border-right:0;border-bottom:1px solid #e9ece7;box-shadow:none}
+#taskflow-module .brand{font-size:22px;margin:0 10px 0 0}
+#taskflow-module .brand-mark{height:27px;width:27px;border-radius:7px}
+#taskflow-module .workspace,#taskflow-module .sidebar>.nav-label:not(.project-heading),#taskflow-module .sidebar-bottom{display:none}
+#taskflow-module .main-nav{display:flex;align-items:center;gap:6px}
+#taskflow-module .main-nav button{padding:9px 12px;font-size:12px}
+#taskflow-module .project-heading{margin:0;align-self:center;padding:0;gap:8px}
+#taskflow-module .project-nav{display:flex;flex-wrap:wrap;gap:6px;width:100%}
+#taskflow-module .project-nav button{padding:6px 10px;font-size:11px;background:#f5f7f2;gap:8px}
+#taskflow-module .project-nav button.active{background:#e6f0e4}
+#taskflow-module .workspace-main{margin-left:0;width:100%}
+#taskflow-module .topbar{height:47px;padding:0 25px}
+#taskflow-module .wp-logo,#taskflow-module #mobile-menu{display:none}
+#taskflow-module main{padding:26px 25px 0;max-width:none}
+#taskflow-module .welcome{margin-bottom:23px}
+#taskflow-module h1{font-size:25px;line-height:1.4;font-weight:700;padding:0}
+#taskflow-module h2{font-size:16px;padding:0}
+#taskflow-module .stats{margin-bottom:23px}
+#taskflow-module .content-grid{grid-template-columns:minmax(0,1fr) 245px;gap:18px}
+#taskflow-module .task-title{font-size:11px}
+#taskflow-module .task-project{font-size:9px}
+#taskflow-module .search input{min-height:0;box-shadow:none;padding:0}
+#taskflow-module .table-footer button,#taskflow-module .search input{line-height:normal}
+#taskflow-module .task-table th:first-child{width:38%}
+#taskflow-module .task-table th:nth-child(2){width:20%}
+#taskflow-module .task-table th:nth-child(4){width:15%}
+#taskflow-module .quote-card{display:none}
+#taskflow-module #toast{left:50%;position:fixed;z-index:100001}
+#taskflow-module dialog{z-index:100002;font-family:inherit}
+@media(max-width:1200px){#taskflow-module .content-grid{grid-template-columns:1fr}#taskflow-module .right-column{grid-template-columns:1fr 1fr}#taskflow-module .today-date{display:none}#taskflow-module .task-title{font-size:12px}}
+@media(max-width:782px){#taskflow-module .sidebar{padding:14px;gap:10px}#taskflow-module .brand{font-size:19px}#taskflow-module .main-nav button{padding:8px;font-size:10px}#taskflow-module .main-nav{gap:3px}#taskflow-module .project-heading{margin-left:auto}#taskflow-module .nav-count{display:none}#taskflow-module .topbar{padding:0 14px}#taskflow-module main{padding:20px 14px 0}#taskflow-module h1{font-size:22px}#taskflow-module .stats{grid-template-columns:1fr 1fr}#taskflow-module .right-column{grid-template-columns:1fr}#taskflow-module .task-title{font-size:10px}#taskflow-module .task-table th:nth-child(2),#taskflow-module .task-table td:nth-child(2){display:none}#taskflow-module .task-table th:first-child{width:47%}#taskflow-module .task-table th:nth-child(4){width:20%}}
